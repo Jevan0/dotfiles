@@ -16,21 +16,6 @@ sudo apt install xorg lightdm i3 -y
 ```
 > reboot...
 
-### File Manager & USB auto detect
-```bash
-sudo apt install dolphin udisks2 udiskie -y
-```
-
-### Firefox Browser 
-```bash
-sudo apt install firefox-esr -y 
-```
-
-### Terminal tools
-```bash
-sudo apt install alacritty rofi zsh vim -y
-```
-
 ### Input & keyboard
 ```bash
 sudo apt install im-config fcitx5 fcitx5-chinese-addons fcitx5-config-qt fcitx5-rime -y
@@ -43,7 +28,25 @@ im-config -n fcitx5
 ```
 > logout
 
+### File Manager & USB auto detect
+```bash
+sudo apt install dolphin udisks2 udiskie -y
+```
+
+### Firefox Browser 
+```bash
+sudo apt install firefox-esr -y 
+```
+
+### General tools
+```bash
+sudo apt install alacritty rofi zsh vim git curl -y
+
+# oh-my-zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+
 ### Program
 ```bash
-sudo apt install git -y
+
 ```
