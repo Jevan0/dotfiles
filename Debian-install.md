@@ -50,6 +50,14 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 `vim-gtk3` provide vim clipboard supported
 
 ### Program
+Dev env
 ```bash
-
+sudo apt install openjdk-21-jdk -y # Java
+sudo apt install python3 python3-dev python3-pip python3-venv -y # Python
+sudo apt install build-essential libssl-dev libffi-dev manpages-dev clang lldb lld libc++-dev libc++abi-dev cmake -y # C C++ Cmake
 ```
+- c
+- cpp
+- cmake
+- java
+- python
