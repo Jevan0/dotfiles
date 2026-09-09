@@ -40,7 +40,7 @@ sudo apt install firefox-esr -y
 
 ### General tools
 ```bash
-sudo apt install alacritty rofi zsh vim git curl -y
+sudo apt install alacritty rofi zsh vim vim-gtk3 git curl -y
 
 # oh-my-zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
