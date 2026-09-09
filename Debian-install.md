@@ -12,7 +12,7 @@ Exit `root` user
 > 
 ### Basic desktop env
 ```bash
-sudo apt install xorg lightdm i3 -y
+sudo apt install xorg lightdm i3 -y # lightdm provide login page
 ```
 > reboot...
 
@@ -24,9 +24,11 @@ echo 'export XMODIFIERS=@im=fcitx' >> ~/.profile
 echo 'export GTK_IM_MODULE=fcitx' >> ~/.profile
 echo 'export QT_IM_MODULE=fcitx' >> ~/.profile
 
-im-config -n fcitx5
+im-config -n fcitx5 
 ```
-> logout
+> logout to apply these configs   
+
+`im-config` set fcitx5 as default 
 
 ### File Manager & USB auto detect
 ```bash
@@ -45,6 +47,7 @@ sudo apt install alacritty rofi zsh vim vim-gtk3 git curl -y
 # oh-my-zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
+`vim-gtk3` provide vim clipboard supported
 
 ### Program
 ```bash
