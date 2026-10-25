@@ -34,6 +34,9 @@ im-config -n fcitx5
 ```bash
 sudo apt install dolphin udisks2 udiskie -y
 ```
+### Font
+```bash
+sudo apt install fonts-jetbrains-mono fonts-noto-cjk -y
 
 ### Audio
 ```bash
@@ -50,7 +53,7 @@ set true:  about:config -> gfx.webrender.all
 
 ### General tools
 ```bash
-sudo apt install alacritty rofi zsh vim vim-gtk3 git curl btop -y
+sudo apt install alacritty rofi zsh vim vim-gtk3 xclip git curl btop -y
 
 # oh-my-zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
