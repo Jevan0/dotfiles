@@ -35,10 +35,18 @@ im-config -n fcitx5
 sudo apt install dolphin udisks2 udiskie -y
 ```
 
+### Audio
+```bash
+sudo apt install pipewire-audio pulseaudio-utils -y
+
+systemctl --user enable --now pipewire pipewire-pulse wireplumber
+```
+
 ### Firefox Browser 
 ```bash
-sudo apt install firefox-esr -y 
+sudo apt install firefox-esr -y
 ```
+set true:  about:config -> gfx.webrender.all 
 
 ### General tools
 ```bash
