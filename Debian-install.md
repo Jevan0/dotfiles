@@ -34,9 +34,11 @@ im-config -n fcitx5
 ```bash
 sudo apt install dolphin udisks2 udiskie -y
 ```
+
 ### Font
 ```bash
 sudo apt install fonts-jetbrains-mono fonts-noto-cjk -y
+```
 
 ### Audio
 ```bash
