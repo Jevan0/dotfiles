@@ -2,7 +2,7 @@
 # this file is not full config 
 # put this lines into bottom of real config file
 
-export EDITOR="vim"
+export EDITOR="hx"
 
 autoload -U edit-command-line
 zle -N edit-command-line
