@@ -46,6 +46,10 @@ sudo apt install pipewire-audio pulseaudio-utils -y
 
 systemctl --user enable --now pipewire pipewire-pulse wireplumber
 ```
+### screen bright control
+```bash
+sudo apt instlal -y brightnessctl
+```
 
 ### Firefox Browser 
 ```bash
